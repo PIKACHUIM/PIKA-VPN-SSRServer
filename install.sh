@@ -954,7 +954,6 @@ install_shadowsocks_libev(){
     else
         echo
         echo -e "[${red}Error${plain}] ${software[3]} install failed."
-        echo "Please visit: https://teddysun.com/486.html and contact."
         install_cleanup
         exit 1
     fi
@@ -1121,7 +1120,7 @@ install_main(){
     fi
 
     echo
-    echo "Welcome to visit: https://teddysun.com/486.html"
+    echo "Success Install SSR"
     echo "Enjoy it!"
     echo
 }
